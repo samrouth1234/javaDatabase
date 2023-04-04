@@ -1,9 +1,6 @@
 import org.postgresql.ds.PGSimpleDataSource;
-
-import javax.sql.DataSource;
-
 public class Jdbclmpl {
-    public DataSource dataSource(){
+    public PGSimpleDataSource dataSource(){
         PGSimpleDataSource dataSource=new PGSimpleDataSource();
         dataSource.setUser("postgres");
         dataSource.setPassword("samrouth020320");
